@@ -1,0 +1,81 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+/*Téléphone*/
+@media only screen and (max-width: 375px) {
+
+}
+
+/*Tablette verticale */
+@media screen and (min-width: 376px) {
+
+}
+
+/*Tablette horizontale*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*Ordinateur*/
+@media screen and (min-width: 1280px) {
+
+    body {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        margin: 0;
+    }
+
+    .menu {
+        text-align: center;
+        height: 100%;
+        border-right: 5px solid black;
+        display: block;
+        width: 30vw;
+    }
+
+    .menuContent {
+
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .menuElements {
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .menuElements li {
+        list-style-type: square;
+    }
+
+    .logo {
+        border: 1px solid black;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duet {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .duet div{
+        width: 35vw;
+        height: 50vh;
+        overflow: hidden;
+    }
+
+    /*.duetContent .contentImg{*/
+    /*    position: relative;*/
+    /*    left: -25%;*/
+    /*}*/
+
+}
