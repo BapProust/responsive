@@ -67,15 +67,62 @@ body {
         flex-direction: row;
     }
 
-    .duet div{
+    .duet div {
         width: 35vw;
         height: 50vh;
-        overflow: hidden;
     }
 
-    /*.duetContent .contentImg{*/
-    /*    position: relative;*/
-    /*    left: -25%;*/
-    /*}*/
+    .duetContent1 {
+        background-image: url("assets/server.png");
+        background-position: center;
+    }
+
+    .duetContent2 {
+        background-image: url("assets/bdd.png");
+        background-position: center;
+    }
+
+    .duetContent3 {
+        background-image: url("assets/api.png");
+        background-position: center;
+    }
+
+    .duetContent4 {
+        background-image: url("assets/front.png");
+        background-position: center;
+    }
+
+    .contentImg {
+        display: none;
+    }
+
+    .titre {
+        margin: 1rem;
+        padding: 1rem;
+        width: 150px;
+        text-align: center;
+        display: inline-block;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    .listeOptionP {
+        background-color: RGBA(0, 0, 0, .6);
+        text-align: left;
+        color: white;
+        margin: 1rem;
+        padding: 1rem;
+        width: 150px;
+        display: inline-block;
+
+    }
+
+    .duetContent2 .bouton {
+        float: right
+    }
+
+    .duetContent4 .bouton {
+        float: right;
+    }
 
 }
